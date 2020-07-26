@@ -1,5 +1,3 @@
-
-
 ## Requirements:
 
 ### For Partial Data LDA: 
