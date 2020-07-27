@@ -35,11 +35,11 @@ pip install pprintpp
 
 ### Mixed varities 
 
-The ```mixed_tweets.txt``` data collection consists of 51986 Tweets of mixed varieites of Arabic (including MSA) collected between January and May 2020. All tweets contain some mention of **Covid19** complete with hashtags and @ mentions. They contain no images/video or links. Information on users, such as usernames or demographics, are not included. Tweets were scraped based on geographical location (Levant area) and containment of selected Levantine Arabic stopwords. 
+The ```tweets_mixed.txt``` data collection consists of 51986 Tweets of mixed varieites of Arabic (including MSA) collected between January and May 2020. All tweets contain some mention of **Covid19** complete with hashtags and @ mentions. They contain no images/video or links. Information on users, such as usernames or demographics, are not included. Tweets were scraped based on geographical location (Levant area) and containment of selected Levantine Arabic stopwords. 
 
 ### Filtered & Preprocessed Data
 
-File ```mixed_lev.txt``` contains up to cleaned 11399 tweets written in Levantine Arabic (automatically filtered, see "Dialect Filtering" example). Preprocessing is minimal with no stemming. For example, prefix 'و' (the 'and' conjunct in Arabic) is still attached to many words. File ```mixed_lev_noCovid.txt``` contains tweets with all mentions of covid19 (in their different formats) removed. 
+File ```tweets_lev.txt``` contains up to cleaned 11399 tweets written in Levantine Arabic (automatically filtered, see "Dialect Filtering" example). Preprocessing is minimal with no stemming. For example, prefix 'و' (the 'and' conjunct in Arabic) is still attached to many words. File ```tweets_lev_noCovid.txt``` contains tweets with all mentions of covid19 (in their different formats) removed. 
 
 ## Examples
 
