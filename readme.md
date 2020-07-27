@@ -28,7 +28,7 @@ pip install pandas
 pip install numpy
 pip install gensim 
 pip install tabulate
-pip install pprint
+pip install pprintpp
 ```
 
 ## Twitter Data
