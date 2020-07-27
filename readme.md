@@ -4,22 +4,24 @@ Data and scripts used for a thesis paper on [Targeted Topic Modeling for Levanti
 
 ## Getting Started
 
-In this repo, you will find: 
-1. data of raw text tweets in mixed varieties of Arabic (including MSA) as well as automatically filtered Levantine Arabic tweets. 
-2. A script to generate topic models from partial data using LDA. 
-3. A pretrained model to classify Levantine Arabic texts
-
 To get a copy of the code, use the git clone command. 
 
 ```shell
 git clone git@github.com:snekz/lev_thesis.git
 ```
+### Contents
+
+In this repo, you will find: 
+
+1. data of raw text tweets in mixed varieties of Arabic (including MSA) as well as automatically filtered Levantine Arabic tweets. 
+
+2. A script to generate topic models from partial data using LDA. The data included is determined by whether a document contains one or more keywords from a list of pre-selected terms (which can be supplemented by similar terms from word embeddings).
+
+3. A pretrained model to classify Levantine Arabic texts
 
 ### Prerequisites:
 
-Make sure you have these modules installed for testing LDA-pd and/or for using the pretrained Levantine Arabic filtering model. 
-
-### For Partial Data LDA: 
+Make sure you have these modules installed for testing LDA-pd. Those required for dialect identification can be found in ```dialect_identification.ipynb``` when executed in google colab. 
 
 ```shell
 pip install pandas
@@ -27,13 +29,6 @@ pip install numpy
 pip install gensim 
 pip install tabulate
 pip install pprint
-```
-### For Dialect Filtering
-
-```shell
-pip install json
-pip install keras
-pip install numpy 
 ```
 
 ## Twitter Data
