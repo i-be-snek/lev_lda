@@ -74,12 +74,12 @@ Feel free to play around with parameters in ```lda_pd.py```.
 
 ## Credit & Acknowledgments
 
-* **Deep Models for Arabic Dialect Indentification on Benchmarked Data** [[1]](#1) for providing deep learning models to use with Arabic texts. [**paper**](https://www.aclweb.org/anthology/W18-3930) [**repo**](https://github.com/UBC-NLP/aoc_id)
+* **Deep Models for Arabic Dialect Indentification on Benchmarked Data**[[1]](#1) for providing deep learning models to use with Arabic texts. [**paper**](https://www.aclweb.org/anthology/W18-3930) | [**repo**](https://github.com/UBC-NLP/aoc_id)
 
-* **The MADAR Shared Task on Arabic Fine-Grained Dialect Identification** [[2]](#2) for providing training data of different Arabic dialects. [**paper**](https://www.aclweb.org/anthology/W19-4622)
+* **The MADAR Shared Task on Arabic Fine-Grained Dialect Identification**[[2]](#2) for providing training data of different Arabic dialects. [**paper**](https://www.aclweb.org/anthology/W19-4622)
 
-* **Arabic Multidialectal Word Embeddings** [[3]](#3) for providing multidialect word emebddings
-Copyright 2018 of New York University Abu Dhabi. [**download**](https://camel.abudhabi.nyu.edu/arabic-multidialectal-embeddings/)
+* **Arabic Multidialectal Word Embeddings**[[3]](#3)
+(Copyright 2018 of New York University Abu Dhabi.) [**download**](https://camel.abudhabi.nyu.edu/arabic-multidialectal-embeddings/) | [**paper**](https://www.aclweb.org/anthology/P18-2089/)
 
 * **Hisham Maiza** for his [Word2Tensor](https://github.com/HichemMaiza/Word2tensor) script. 
 
