@@ -7,7 +7,7 @@ Data and scripts used for a thesis paper on [Targeted Topic Modeling for Levanti
 To get a copy of the code, use the git clone command. 
 
 ```shell
-git clone git@github.com:snekz/lev_thesis.git
+git clone git@github.com:snekz/lev_lda.git
 ```
 ### Contents
 
